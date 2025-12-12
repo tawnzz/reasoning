@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
+<script>
+    var index = 0;
+</script>
+
+
+<h1>Reasoning Trace</h1>
+<p style="font-size: 5px">Hello Donghoon!</p>
+
+<button on:click={() => {index -= 1}}>
+    -
+</button>
+
+<p> {index} </p>
+
+<button on:click={() => {index += 1}}>
+    +
+</button>
+
